@@ -1,0 +1,18 @@
+[[source]]
+url = "https://artifactory.cloud.capitalone.com/artifactory/api/pypi/pypi-internalfacing/simple"
+verify_ssl = true
+name = "artifactory"
+
+[dev-packages]
+behave = "*"
+boto3 = "*"
+pylint = "*"
+pyspark = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+pyspark = "==3.4.0"
+
+[requires]
+python_version = "3.9"
